@@ -10,7 +10,7 @@ public static class Info{
 			this.visited = visited;
 		}
 	}
-	
+	 
 	static int deadCnt = 0;
 	static int n=0;
 	static int d=0; // 1이면 + , 0이면 -
