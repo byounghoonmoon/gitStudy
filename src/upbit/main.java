@@ -27,7 +27,7 @@ public class main {
 	// 비교 원화 (한국/UDSDT)
 	static String [] nation ={"KRW","USDT"}; 
 	// 달러 원화 
-	static double dollar = 1065.97;
+	static double dollar = 1080.97;
 	static String urlStr = "https://crix-api-endpoint.upbit.com/v1/crix/candles/ticks/60?code=CRIX.UPBIT.";
 	
 	static List<DataVO> result = new ArrayList<DataVO>();
