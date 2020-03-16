@@ -1,5 +1,7 @@
 public class Hello{
 
+	
+// TEST 02 Branch Commit 
 public static class Info{
 		int num;
 		boolean visited;
@@ -13,8 +15,8 @@ public static class Info{
 	 
 	static int deadCnt = 0;
 	static int n=0;
-	static int d=0; // 1이면 + , 0이면 -
-	static int direct=0; // 1이면 + , 0이면 -
+	static int d=0; // 1�씠硫� + , 0�씠硫� -
+	static int direct=0; // 1�씠硫� + , 0�씠硫� -
 	static int k=0;
 	static int j=0;
 	static LinkedList<Info> list = new LinkedList<Info>();
@@ -29,7 +31,7 @@ public static class Info{
 		k = sc.nextInt();
 		j = sc.nextInt();
 		
-		// 초기화
+		// 珥덇린�솕
 		for(int i=0; i<n; i++)
 			list.add(new Info(i+1, false));
 		
